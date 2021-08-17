@@ -91,7 +91,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       _addToList(_fieldController.text.toString());
                     }
                     _fieldController.clear();
-                    FocusScope.of(context).unfocus();
                   },
                   child: Text('Add to list')),
               SizedBox(
